@@ -15,7 +15,7 @@ RUN \
 
 FROM alpine
 
-RUN useradd -S rust
+RUN adduser -S rust
 
 WORKDIR "/app"
 
